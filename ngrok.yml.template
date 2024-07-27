@@ -1,0 +1,5 @@
+version: "2"
+tunnels:
+  miget-tunnel:
+    addr: ${MIGET_SERVICE_NAME}:${MIGET_SERVICE_PORT}
+    proto: tcp
