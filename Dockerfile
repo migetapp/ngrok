@@ -7,7 +7,7 @@ ENV SERVICE_NAME=localhost
 ENV NGROK_AUTHTOKEN=
 
 # Install ngrok and other necessary tools
-RUN apk update && apk add --no-cache wget ca-certificates && \
+RUN apk update && apk add --no-cache wget ca-certificates gettext && \
     wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz && \
     tar -xzf ngrok-v3-stable-linux-amd64.tgz -C /usr/local/bin && \
     rm ngrok-v3-stable-linux-amd64.tgz
