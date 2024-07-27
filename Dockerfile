@@ -1,4 +1,3 @@
-# Use an official lightweight Alpine Linux image
 FROM alpine:latest
 
 # Set environment variables
@@ -33,4 +32,3 @@ USER ngrokuser
 
 # Set the entrypoint
 ENTRYPOINT ["/entrypoint.sh"]
-
