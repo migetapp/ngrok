@@ -1,8 +1,8 @@
 FROM alpine:3.20
 
 # Set environment variables
-ENV SERVICE_PORT=8080
-ENV SERVICE_NAME=localhost
+ENV MIGET_SERVICE_PORT=8080
+ENV MIGET_SERVICE_NAME=localhost
 ENV NGROK_AUTHTOKEN=
 
 # Install ngrok and other necessary tools
