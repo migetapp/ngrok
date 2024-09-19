@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.20
 
 # Set environment variables
 ENV SERVICE_PORT=8080
